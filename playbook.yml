@@ -1,0 +1,27 @@
+---
+- name: test local
+  hosts: 127.0.0.1
+  connection: local
+  tasks:
+    - name: Install python
+      shell: sudo apt-get install python
+    - name: Install ipython
+      shell: sudo apt-get install ipython
+    - name : Install ipython Notebook
+      shell: sudo apt-get install ipython-notebook
+    - name: Install Pandas
+      shell: sudo apt-get install python-pandas
+    - name: Install Networkx
+      shell: sudo apt-get install python-networkx
+    - name: Install Matplotlib
+      shell: sudo apt-get install python-matplotlib
+    - name: Install Numpy
+      shell: sudo apt-get install python-numpy
+    - name: Install SciPy
+      shell: sudo apt-get install python-scipy
+    - name: Install screen
+      shell: sudo apt-get install screen
+    - name: Install emacs
+      shell: sudo apt-get install emacs
+    - name: Install git
+      shell: sudo apt-get install git
